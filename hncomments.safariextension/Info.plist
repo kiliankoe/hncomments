@@ -21,8 +21,16 @@
 		<key>Toolbar Items</key>
 		<array>
 			<dict>
+				<key>Command</key>
+				<string>hntoolbar</string>
+				<key>Identifier</key>
+				<string>hntoolbar</string>
 				<key>Label</key>
 				<string>hncomments</string>
+				<key>Palette Label</key>
+				<string>hncomments</string>
+				<key>Tool Tip</key>
+				<string>Go to the hackernews comments for this page</string>
 			</dict>
 		</array>
 	</dict>
@@ -32,7 +40,7 @@
 		<dict/>
 	</dict>
 	<key>Description</key>
-	<string>Open the comments page on Hackernews for the current website.</string>
+	<string>Open the HN comments for the current website.</string>
 	<key>DeveloperIdentifier</key>
 	<string></string>
 	<key>ExtensionInfoDictionaryVersion</key>
@@ -41,16 +49,14 @@
 	<dict>
 		<key>Website Access</key>
 		<dict>
-			<key>Allowed Domains</key>
-			<array>
-				<string>*</string>
-			</array>
 			<key>Include Secure Pages</key>
 			<true/>
 			<key>Level</key>
-			<string>Some</string>
+			<string>All</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://kilian.io/hncomments/hncomments.plist</string>
 	<key>Website</key>
 	<string>http://kilian.io/hncomments</string>
 </dict>
